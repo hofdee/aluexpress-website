@@ -1,4 +1,4 @@
-@import "../themes/bootstrap-color.scss";
+@use "../themes/bootstrap-color.scss";
 .contact-page {
   @media screen and (max-width: 990px) {
     .border-right {
@@ -29,18 +29,18 @@
     }
 
     .fill-svg {
-      fill: $secondary;
+      fill: bootstrap-color.$secondary;
       stroke: none;
     }
 
     .stroke-svg {
-      stroke: $secondary;
+      stroke: bootstrap-color.$secondary;
       fill: none;
     }
 
     .address {
       .fill-svg {
-        fill: $secondary;
+        fill: bootstrap-color.$secondary;
         stroke: #fff;
         stroke-width: 2;
         width: 2.5rem;

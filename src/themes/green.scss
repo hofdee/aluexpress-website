@@ -1,4 +1,4 @@
-@import "./bootstrap-color.scss";
+@use "bootstrap-color.scss";
 // -------- Set of colors --------
 $color-light: lightgreen;
 $color-default: #28a745;
@@ -104,10 +104,10 @@ $color-hover: #218838;
 // -------- Project --------
 .gallery-cat {
   .badge-light:hover {
-    background-color: $success;
+    background-color: bootstrap-color.$success;
   }
   .badge-secondary {
-    background-color: $success;
+    background-color: bootstrap-color.$success;
     color: #fff;
   }
 }
@@ -119,12 +119,12 @@ $color-hover: #218838;
 
 .news-title:hover,
 .news-date p:hover {
-  color: $success;
+  color: bootstrap-color.$success;
 }
 
 .news-date {
   svg {
-    stroke: $success;
+    stroke: bootstrap-color.$success;
   }
 }
 
@@ -133,17 +133,17 @@ footer {
   .opening,
   .footer-contact {
     .list .svg svg {
-      fill: $success !important;
+      fill: bootstrap-color.$success !important;
     }
   }
 
   .footer-social {
     a {
-      border-color: $success !important;
+      border-color: bootstrap-color.$success !important;
     }
 
     a:hover {
-      background-color: $success;
+      background-color: bootstrap-color.$success;
       .fill-svg {
         fill: #000;
       }
@@ -157,16 +157,16 @@ footer {
 // -------- PageHeader --------
 .page-header {
   h2 {
-    text-decoration-color: $success !important;
+    text-decoration-color: bootstrap-color.$success !important;
   }
 }
 
 // -------- AboutCard --------
 .about-card {
-  border-color: $success !important;
+  border-color: bootstrap-color.$success !important;
 
   .about-card-title {
-    color: $success !important;
+    color: bootstrap-color.$success !important;
   }
 }
 
@@ -205,7 +205,7 @@ footer {
     background-color: $color-light !important;
   }
   .img-selected {
-    background-color: $success !important;
+    background-color: bootstrap-color.$success !important;
   }
 }
 

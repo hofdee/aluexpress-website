@@ -1,8 +1,8 @@
-@import "../themes/bootstrap-color.scss";
+@use "../themes/bootstrap-color.scss";
 .about-card {
   border-style: solid;
   border-width: 4px;
-  border-color: $secondary;
+  border-color: bootstrap-color.$secondary;
   padding: 20px;
   margin: 40px 20px 20px;
 
@@ -10,6 +10,6 @@
     margin: -40px 0px 20px;
     width: 200px;
     background: #fff;
-    color: $secondary;
+    color: bootstrap-color.$secondary;
   }
 }
