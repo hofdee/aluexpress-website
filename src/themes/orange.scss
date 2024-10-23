@@ -1,8 +1,8 @@
 @use "bootstrap-color.scss";
 // -------- Set of colors --------
-$color-light: #fef502;
-$color-default: #ffc107;
-$color-hover: #d39e00;
+$color-light: #dca759;
+$color-default: #e6ad5a;
+$color-hover: #ccae84;
 
 // -------- Color for highlighting --------
 // Codes for Firefox:
@@ -26,6 +26,8 @@ $color-hover: #d39e00;
   a:hover {
     color: $color-light !important;
   }
+
+  background-color: #122533 !important;
 }
 
 // -------- Hero component --------

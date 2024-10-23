@@ -32,7 +32,7 @@ class Header extends Component {
               <img
                 src={logo}
                 alt={`${siteTitle} Logo`}
-                height="80px"
+                height="55px"
                 className="mr-2"
               />
               {}
