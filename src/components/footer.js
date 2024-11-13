@@ -138,7 +138,7 @@ const Footer = ({ siteMetadata }) => {
           </Row>
         </Container>
         <Row className="footer-credits justify-content-center">
-          {` ${title} © 2024 || Code by: `} &nbsp;
+          {` ${title} © 2024 | Code by: `} &nbsp;
           <a
             href={author.website}
             target="_blank"

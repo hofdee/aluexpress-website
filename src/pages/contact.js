@@ -190,15 +190,7 @@ const ContactPage = () => {
             </Col>
           </Row>
         </main>
-      </Container>
-      <iframe
-        src={map}
-        width="100%"
-        height="450"
-        frameborder="0"
-        allowfullscreen=""
-        title={`${title} office map`}
-      ></iframe>
+      </Container>      
     </section>
   )
 }

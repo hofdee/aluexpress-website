@@ -21,9 +21,8 @@ const AboutPage = () => {
 
   const aboutContent = [
     `AluExpress is a professional construction company specializing in the design, manufacture, and installation of high quality aluminum doors and windows. Our range of products are durable, energy-efficient, and stylish solutions for residential and commercial projects, tailored to meet the unique needs of each client.`,
-    `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem nisi esse dolorum architecto, id et illo, mollitia consectetur eaque debitis enim ea facere provident aperiam repellat nam natus molestiae expedita?`,
-    `Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis voluptatibus cumque incidunt vero corporis architecto vel voluptas optio nemo, cum repellendus, doloremque, voluptates sit? Sit facilis, minus odio tempora dicta distinctio expedita ipsa alias ipsam fuga, nulla dolor, quos ut molestias quia?`,
-    `Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum ipsa officiis aperiam suscipit quaerat non reprehenderit sapiente hic, odit, praesentium dolorem veritatis. Velit dolorum accusamus debitis blanditiis? Ad officia corporis optio neque quaerat dolore, incidunt, ducimus facilis quo ratione, dicta quos voluptatibus ab consequatur unde debitis quibusdam! Temporibus, dolor pariatur ipsa eaque assumenda nesciunt nam! Ab rem ex iusto aut.`,
+    `Upholding the highest standards of honesty and transparency in all our dealings together with a focus on precision, innovation, and customer satisfaction, our team ensures seamless integration of aluminium ﬁxtures that enhance both functionality and aesthetics.`,
+    `Our products include Residential buildings, Casement windows, Sliding windows, Louvres, Foldaway windows, Doors, Galaxy hinged doors, Foldaway doors, Commercial shop ﬁtting, Shopfronts, Partitioning, Drywalls and Aluminium partitions, Suspended ceilings`,
   ]
   return (
     <section id="about">
@@ -48,16 +47,10 @@ const AboutPage = () => {
             <Col md="6">
               <AboutCard title="Mission">
                 <p>
-                  <strong>{fullTitle} </strong>Ipsum dolor sit amet consectetur
-                  adipisicing elit. Ullam quisquam ratione et sint, quos
-                  dolores, corporis debitis minus, vitae officia adipisci ipsa
-                  fugiat est dolorum eum optio blanditiis quas doloribus hic
-                  saepe dicta fugit exercitationem. Sed, recusandae atque nobis
-                  facilis voluptates, dolores quaerat aspernatur dolorem iusto
-                  autem, facere ipsa. Fugiat
+                  <strong>{fullTitle} </strong> aims to deliver high-quality, sustainable construction solutions that exceed client expectations, 
+                  through innovation, craftsmanship, and a commitment to safety and environmental responsibility.
                 </p>
                 <ol>
-                  <li>Providing awesome customer service to our clients.</li>
                   <li>
                     Providing a mixture of services to a variety of industries
                     and geographical locations.
@@ -76,27 +69,22 @@ const AboutPage = () => {
             <Col md="6">
               <AboutCard title="Vision">
                 <p>
-                  Ipsum dolor sit amet consectetur adipisicing elit. Ullam
-                  quisquam ratione et sint, quos dolores, corporis debitis
-                  minus, vitae officia adipisci ipsa fugiat est dolorum eum
-                  optio blanditiis quas doloribus hic saepe dicta fugit
-                  exercitationem. Sed, recusandae atque nobis facilis
-                  voluptates, <strong>{fullTitle} </strong>
-                  dolores quaerat aspernatur dolorem iusto autem, facere ipsa.
+                To be a leading construction company known for excellence, integrity, and 
+                shaping the future of communities by creating lasting structures that inspire 
+                and stand the test of time to the domestic and commercial building sectors
                 </p>
               </AboutCard>
               <AboutCard title="Core Values">
                 <p>
-                  Ipsum dolor sit amet consectetur adipisicing elit. Ullam
-                  quisquam ratione et sint, quos dolores, corporis debitis
-                  minus, vitae officia adipisci ipsa fugiat est{" "}
-                  <strong>{title} </strong>dolorum eum optio blanditiis quas
-                  doloribus hic saepe dicta fugit exercitationem.
+                AluExpress is committed to upholding the highest standards of honesty and transparency in all it's dealings.
+                We committ to delivering superior workmanship and attention to detail in every project, embracing cutting-edge technology and practices to offer creative and sustainable solutions. 
+                We foster collaboration and respect within our teams and with our clients and partners.
                 </p>
                 <ul>
-                  <li>Professionalism</li>
-                  <li>Commitment</li>
                   <li>Integrity</li>
+                  <li>Quality</li>
+                  <li>Innovation</li>
+                  <li>Team Work</li>
                 </ul>
               </AboutCard>
             </Col>
