@@ -8,7 +8,7 @@ const ProjectPage = ({ data }) => {
   return (
     <>
       <Project
-        title="Completed Projects"
+        title="Our Work"
         projects={data.allProjectsJson.edges}
       />
       <Services />
