@@ -20,14 +20,16 @@ const IndexPage = ({ data }) => {
   return (
     <div>
       <Hero title={fullTitle} description={description} />
-      <Services />
-      <About about={about} />
+      <News />
       <Feature
         title="Featured Projects"
         projects={data.allProjectsJson.edges}
       />
       <QuoteUs />
-      <News />
+      
+      <Services /> 
+      <About about={about} />
+      
     </div>
   )
 }

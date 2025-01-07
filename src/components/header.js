@@ -32,7 +32,7 @@ class Header extends Component {
               <img
                 src={logo}
                 alt={`${siteTitle} Logo`}
-                height="55px"
+                height="95px"
                 className="mr-2"
               />
               {}
@@ -50,7 +50,7 @@ class Header extends Component {
                   </Link>
                 </NavItem>
                 <NavItem>
-                  <Link className="nav-link" to="projects/#project">
+                  <Link className="nav-link" to="/projects/#project">
                     Projects
                   </Link>
                 </NavItem>

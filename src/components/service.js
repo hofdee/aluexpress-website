@@ -8,7 +8,7 @@ const Service = ({ services }) => {
       <section className="service-icon">
         <img src={icon} alt={title} />
       </section>
-      <h4>{title}</h4>
+      <h2>{title}</h2>
       <p>{description}</p>
     </div>
   )

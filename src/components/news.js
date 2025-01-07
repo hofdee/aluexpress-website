@@ -35,8 +35,8 @@ const News = () => {
   return (
     <div className="news section-lg bg-light-gray">
       <Container>
-        <h2 className="header-title font-weight-bold text-center text-uppercase">
-          Exhibitions
+        <h2 className="header-title text-center text-capitalize">
+          Our Services
         </h2>
         <Row>
           {companyNews.map(news => {

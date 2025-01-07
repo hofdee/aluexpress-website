@@ -16,7 +16,7 @@ class Project extends Component {
     return (
       <div className="project section-lg" id="project">
         <Container>
-          <h2 className="header-title text-center font-weight-bold text-uppercase">
+          <h2 className="header-title text-center font-weight-normal text-uppercase mt-4">
             {title}
           </h2>
           <section className="gallery-cat text-center">
