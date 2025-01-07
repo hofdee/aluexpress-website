@@ -7,7 +7,7 @@ import "./newsCard.scss"
 const NewsCard = ({ news }) => {
   const { title, date, about, img, slug } = news
   return (
-    <article className="news-card">
+    <article className="news-card quicksand-aluexpress">
       <section className="news-thumbnail">
         <Link to={`/news/${slug}`}>
           <section className="news-thumbnail-hover">

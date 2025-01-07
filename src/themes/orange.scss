@@ -1,4 +1,15 @@
 @use "bootstrap-color.scss";
+
+// ------------- font family -------------------------------------------------
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+.quicksand-aluexpress {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
 // -------- Set of colors --------
 $color-light: #dca759;
 $color-default: #e6ad5a;
@@ -218,10 +229,3 @@ footer {
   }
 }
 
-// ------------- font family -------------
-
-body {
-  font-family: 'Quicksand', 'Sora', Helvetica, Arial, Lucida, sans-serif;
-  font-weight: 600;
-  font-size: 18px;
-}

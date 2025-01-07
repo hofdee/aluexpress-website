@@ -5,7 +5,7 @@ import "./quote.scss"
 
 const QuoteUs = () => {
   return (
-    <div className="quote" id="quote">
+    <div className="quote quicksand-aluexpress" id="quote">
       <section className="parallax-container">
         <div className="theme-wrapper">
           <div className="parallax-content section-lg">

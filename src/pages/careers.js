@@ -15,7 +15,7 @@ const CareersPage = ({ data }) => {
   const tableHeader = ["Job Posting Title", "Location", "Time"]
   const opportunities = data.allCareersJson.edges
   return (
-    <section id="careers">
+    <section id="careers" className="quicksand-aluexpress">
       <PageHeader title="Careers" />
       <Container>
         <main className="careers-page section-lg">

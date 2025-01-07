@@ -1,7 +1,7 @@
 import React from "react"
 import NotFoundPage from "./404.js"
 const SecondPage = () => (
-  <div>
+  <div className="quicksand-aluexpress">
     <NotFoundPage />
   </div>
 )

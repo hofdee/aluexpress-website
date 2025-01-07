@@ -57,7 +57,7 @@ const companyNews = [
 
 const News = () => {
   return (
-    <div className="news section-lg bg-light-gray">
+    <div className="news section-lg bg-light-gray quicksand-aluexpress">
       <Container>
         <h3 className="text-center text-uppercase">
           Our Services

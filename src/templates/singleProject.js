@@ -45,7 +45,7 @@ const SingeProject = props => {
   } = props.data.projectsJson
 
   return (
-    <main className="singe-project section-lg" id="single-project">
+    <main className="singe-project section-lg quicksand-aluexpress mt-5" id="single-project">
       <Container>
         <Row>
           <Col lg="5" className="proj-details">

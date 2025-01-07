@@ -27,7 +27,7 @@ const Services = () => {
     },
   ]
   return (
-    <div className="services" id="services">
+    <div className="services quicksand-aluexpress" id="services">
       <Container>
         <Row>
           {card.map(service => {

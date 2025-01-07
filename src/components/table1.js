@@ -3,7 +3,7 @@ import { Table } from "reactstrap"
 
 const Table1 = ({ title, tHeader, tData }) => {
   return (
-    <section className="opened-positions mt-5 w-100">
+    <section className="opened-positions mt-5 w-100 quicksand-aluexpress">
       <h3>{title}</h3>
       <Table>
         <thead>

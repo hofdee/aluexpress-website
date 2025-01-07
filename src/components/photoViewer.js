@@ -8,7 +8,7 @@ class PhotoViewer extends Component {
   render() {
     const imgList = this.props.list.src
     return (
-      <main className="photo-viewer w-100 mx-1">
+      <main className="photo-viewer w-100 mx-1 quicksand-aluexpress">
         <section className="img-view img-thumbnail mw-100 h-75">
           <img
             src={imgList[this.state.imgIndex]}

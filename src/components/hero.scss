@@ -1,8 +1,18 @@
+// ------------- font family -------------------------------------------------
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+.quicksand-aluexpress {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
 .hero {
   background-image: url("../images/bg.jpg"); /*Wallpaper by desktopwalls.net*/
   background-attachment: fixed;
   background-size: cover;
-  background-position: top left;
+  background-position: bottom left;
   height: 80vh;
 
   .hero-content {

@@ -4,6 +4,17 @@ $color-light: lightgreen;
 $color-default: #28a745;
 $color-hover: #218838;
 
+// ------------- font family -------------------------------------------------
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+.quicksand-aluexpress {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
 // -------- Color for highlighting --------
 // Codes for Firefox:
 *::-moz-selection {

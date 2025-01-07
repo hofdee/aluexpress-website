@@ -3,7 +3,7 @@ import "./pageHeader.scss"
 
 const PageHeader = ({ title }) => {
   return (
-    <header className="page-header">
+    <header className="page-header quicksand-aluexpress">
       <section className="page-header-wrapper section-xl">
         <h2 className="header-title">{title}</h2>
       </section>

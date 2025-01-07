@@ -18,18 +18,16 @@ const IndexPage = ({ data }) => {
   const { fullTitle, description, about } = data.site.siteMetadata
 
   return (
-    <div>
+    <div className="quicksand-aluexpress">
       <Hero title={fullTitle} description={description} />
       <News />
+      <Services />
+      <About about={about} />
       <Feature
         title="Featured Projects"
         projects={data.allProjectsJson.edges}
       />
-      <QuoteUs />
-      
-      <Services /> 
-      <About about={about} />
-      
+      <QuoteUs /> 
     </div>
   )
 }

@@ -25,7 +25,7 @@ const AboutPage = () => {
     `Our products include Residential buildings, Casement windows, Sliding windows, Louvres, Foldaway windows, Doors, Galaxy hinged doors, Foldaway doors, Commercial shop ﬁtting, Shopfronts, Partitioning, Drywalls and Aluminium partitions, Suspended ceilings`,
   ]
   return (
-    <section id="about">
+    <section id="about" className="quicksand-aluexpress">
       <PageHeader title="About Us" />
       <Container>
         <main className="about-page section-lg">

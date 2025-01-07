@@ -45,7 +45,7 @@ const ServicesPage = () => {
     },
   ]
   return (
-    <section id="services">
+    <section id="services" className="quicksand-aluexpress">
       <PageHeader title="Services" />
       <section className="services">
         <Container>

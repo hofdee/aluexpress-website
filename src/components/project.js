@@ -14,7 +14,7 @@ class Project extends Component {
     const { category, title } = this.state
     const projects = this.props.projects
     return (
-      <div className="project section-lg" id="project">
+      <div className="project section-lg quicksand-aluexpress" id="project">
         <Container>
           <h2 className="header-title text-center font-weight-normal text-uppercase mt-4">
             {title}
